@@ -3,12 +3,14 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Choudhury, Roni (2022) test (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000123/draft
+citation: Choudhury, Roni (2024) test (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000123/draft
 contributor:
 - affiliation: []
   email: aichoudh@gmail.com
@@ -30,7 +32,7 @@ manifestLocation:
 name: test
 protocol: []
 relatedResource: []
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
